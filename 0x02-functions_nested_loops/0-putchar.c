@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include <main.h>
 /**
 *main - this is to print a char
 * Return:0
