@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
-* _islower - to test which character is lower
-* @c - this is the parameter
-* Can only use putchar twice
-*Return: c or 0
-*/
+ * _islower - to test which character is lower
+ * @c: this is the parameter
+ * Return: c or 0
+ */
 
 int _islower(int c)
 {
