@@ -12,9 +12,7 @@ n = n % 10;
 
 if (n < 0)
 	n *= -1;
-{
-	/* code */
-}
+
 _putchar(n + '0');
 return (n);
 }
