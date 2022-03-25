@@ -9,14 +9,11 @@
 
 int _strcat(char *dest, char *src))
 {
-	*dest = dest[];
-	*src = src[];
-
-	while (*dest)
+	while (*dest != '\0')
 	{
 		dest++;
 	}
-	while (*src)
+	while (*src != '\0')
 	{
 		*dest = *src;
 		src++;
@@ -24,4 +21,6 @@ int _strcat(char *dest, char *src))
 	}
 	*dest = '\0';
 	_putchar(dest);
+
+	return (dest);
 }
