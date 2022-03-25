@@ -2,6 +2,7 @@
 
 /**
  * _strncat- concatenates string with specific memry size
+ * 
  * @dest: pointer on type char
  * @src: pointer on type char
  * @n: integer for byte size
