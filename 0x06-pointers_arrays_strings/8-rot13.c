@@ -11,7 +11,7 @@ char *rot13(char *s)
 	int i = 0;
 	int j = 0;
 	char *l = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";
-	char *r13 = "NnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMm";
+	char *r = "NnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMm";
 
 	while (*(s + i) != '\0')
 	{
@@ -19,7 +19,7 @@ char *rot13(char *s)
 		{
 			if (*(s + i) == *(l + j))
 			{
-				*(s + i)  = *(r13 + j);
+				*(s + i)  = *(r + j);
 				break;
 			}
 			j++;
