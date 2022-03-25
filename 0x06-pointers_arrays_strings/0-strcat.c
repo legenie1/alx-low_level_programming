@@ -9,6 +9,9 @@
 
 int _strcat(char *dest, char *src))
 {
+	*dest = dest[];
+	*src = src[];
+
 	while (*dest)
 	{
 		dest++;
