@@ -1,14 +1,14 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * _strcat - a function that concatenates two string
- * 
- * @dest: a pointer to char
- * @src: a pointer to char
+ * _strcat- function that concatenates two strings.
+ *
+ * @dest: pointer to destination char
+ * @src: pointer to source char
  * Return: char
  */
 
-char *_strcat(char *dest, char *src))
+char *_strcat(char *dest, char *src)
 {
 	unsigned int i = 0;
 	unsigned int j = 0;
